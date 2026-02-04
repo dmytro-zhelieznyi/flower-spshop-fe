@@ -63,7 +63,7 @@ export default function Home() {
 
                         {/* Слайд 2 */}
                         <div className="relative h-full w-full shrink-0 snap-center">
-                            <Image src="/img/flower.jpg" fill className="object-cover" alt="Slide 1" priority/>
+                            <Image src="/img/flower.svg" fill className="object-cover" alt="Slide 1" priority/>
                             <div
                                 className="absolute inset-0 flex flex-col items-center justify-center text-center z-10">
                                 <h2 className="font-gilda text-[48px] text-[#5B4733]">ALNflowers</h2>
@@ -73,7 +73,7 @@ export default function Home() {
 
                         {/* Слайд 3 */}
                         <div className="relative h-full w-full shrink-0 snap-center">
-                            <Image src="/img/flower.jpg" fill className="object-cover" alt="Slide 1" priority/>
+                            <Image src="/img/flower.svg" fill className="object-cover" alt="Slide 1" priority/>
                             <div
                                 className="absolute inset-0 flex flex-col items-center justify-center text-center z-10">
                                 <h2 className="font-gilda text-[48px] text-[#5B4733]">ALNflowers</h2>
@@ -83,7 +83,7 @@ export default function Home() {
 
                         {/* Слайд 4 */}
                         <div className="relative h-full w-full shrink-0 snap-center">
-                            <Image src="/img/flower.jpg" fill className="object-cover" alt="Slide 1" priority/>
+                            <Image src="/img/flower.svg" fill className="object-cover" alt="Slide 1" priority/>
                             <div
                                 className="absolute inset-0 flex flex-col items-center justify-center text-center z-10">
                                 <h2 className="font-gilda text-[48px] text-[#5B4733]">ALNflowers</h2>
