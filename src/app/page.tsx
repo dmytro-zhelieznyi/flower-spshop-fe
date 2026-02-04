@@ -53,7 +53,7 @@ export default function Home() {
                     <div className="flex h-full w-full overflow-x-auto snap-x snap-mandatory">
                         {/* Слайд 1 */}
                         <div className="relative h-full w-full shrink-0 snap-center">
-                            <Image src="/img/flower.jpg" fill className="object-cover" alt="Slide 1" priority/>
+                            <Image src="/img/flower.svg" fill className="object-cover" alt="Slide 1" priority/>
                             <div
                                 className="absolute inset-0 flex flex-col items-center justify-center text-center z-10">
                                 <h2 className="font-gilda text-[48px] text-[#5B4733]">ALNflowers</h2>
