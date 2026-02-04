@@ -1,26 +1,37 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Оставляем цвет здесь, чтобы он был доступен как класс bg-brand-beige */
+  --color-brand-beige: #ECE4DB;
+
+  /* Маленькие экраны (Смартфоны в альбомной ориентации) */
+  --breakpoint-sm: 640px;
+  /* Средние экраны (Планшеты типа iPad, большие смартфоны) */
+  --breakpoint-md: 768px;
+  /* Большие экраны (Ноутбуки, планшеты в альбомной ориентации) */
+  --breakpoint-lg: 1024px;
+  /* Десктопные мониторы (Обычные компьютеры) */
+  --breakpoint-xl: 1280px;
+  /* Сверхширокие мониторы (Телевизоры, большие рабочие станции) */
+  --breakpoint-2xl: 1536px;
+
+  --font-gilda: var(--font-gilda), serif;
+  --font-roboto: var(--font-roboto), sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Просто базовые настройки, чтобы страница была белой и без лишних отступов */
+@layer base {
+  body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  h1 {
+    @apply font-gilda text-[20px]  leading-[24px] text-black;
+  }
+
+
+
+
 }
