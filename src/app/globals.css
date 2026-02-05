@@ -3,6 +3,8 @@
 @theme {
   /* Оставляем цвет здесь, чтобы он был доступен как класс bg-brand-beige */
   --color-brand-beige: #ECE4DB;
+  --color-brand-beige2: #774E20;
+  --color-brand-beige3: #534429;
 
   /* Маленькие экраны (Смартфоны в альбомной ориентации) */
   --breakpoint-sm: 640px;
@@ -30,8 +32,14 @@
   h1 {
     @apply font-gilda text-[20px]  leading-[24px] text-black;
   }
+}
 
-
-
-
+@utility scrollbar-hide {
+  /* Для Chrome, Safari и Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  /* Для IE, Edge и Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
