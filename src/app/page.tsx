@@ -285,8 +285,8 @@ export default function Home() {
                 </section>
 
                 <section id="cusromer-reviews" className="mb-4 px-3 flex flex-col">
-                    <div className="flex justify-start items-center p-4">
-                        <h1>Customer Reviews</h1>
+                    <div className="flex justify-center items-center p-4">
+                        <h1 className="text-center">Customer Reviews</h1>
                     </div>
                     <div
                         className="flex md:justify-center md:items-center gap-4 overflow-x-auto px-4 py-2 snap-x snap-mandatory">
