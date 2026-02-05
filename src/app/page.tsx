@@ -78,8 +78,8 @@ export default function Home() {
 
     const customers = [
         {id: 1, name: 'Roman', message: 'The saleswoman Christina provides terrible service!', stars: 1},
-        {id: 2, name: 'Dima', message: 'The delivery was prompt and the flowers were fresh!', stars: 5},
-        {id: 3, name: 'Artur', message: 'The flowers could have been fresher!', stars: 3},
+        {id: 2, name: 'Aleksandr', message: 'Kristina has a great 🍑 and a flower shop', stars: 5},
+        {id: 3, name: 'Dima', message: 'The delivery was prompt and the flowers were fresh!', stars: 5},
     ];
 
     const faqData = [
